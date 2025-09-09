@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Flipbook</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <div class="magazine-viewport" id="magazine-viewport">
+    <div id="zoom-container">
+      <div id="flipbook">
+      <div class="page" style="background-image: url('Pictures/pic1.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic2.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic3.png')">
+        <a href="#" onclick="$('#flipbook').turn('page', 4);" style="position: absolute; top: 20%; left: 30%; width: 50%; height: 5%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 6);" style="position: absolute; top: 32%; left: 30%; width: 50%; height: 5%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 8);" style="position: absolute; top: 37%; left: 30%; width: 50%; height: 5%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 10);" style="position: absolute; top: 46%; left: 30%; width: 50%; height: 5%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 12);" style="position: absolute; top: 56%; left: 30%; width: 50%; height: 5%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 14);" style="position: absolute; top: 65%; left: 30%; width: 50%; height: 5%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 16);" style="position: absolute; top: 74%; left: 30%; width: 50%; height: 5%;"></a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/pic4.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic5.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic6.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic7.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic8.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic9.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic10.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic11.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic12.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic13.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic14.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic15.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic16.png')">
+        <div class="link-container">
+        <a href="https://t.me/IE_Intro" style="position: absolute; top: 15%; left: 25%; width: 15%; height: 25%;"></a>
+        <a href="https://t.me/ssa_iesharif" style="position: absolute; top: 15%; left: 55%; width: 15%; height: 25%;"></a>
+        <a href="https://youtube.com/@ssa_iesharif" style="position: absolute; top: 38%; left: 42%; width: 15%; height: 25%;"></a>
+        <a href="https://castbox.fm/va/5570318" style="position: absolute; top: 68%; left: 25%; width: 15%; height: 25%;"></a>
+        <a href="https://t.me/gamein_sharif" style="position: absolute; top: 68%; left: 55%; width: 15%; height: 25%;"></a>
+        </div>
+      </div>
+  
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="turn.min.js"></script>
+  <script type="text/javascript" src="scissor.js"></script>
+  <script type="text/javascript" src="zoom.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
